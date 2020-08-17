@@ -28,9 +28,15 @@ function processFirstItem(stringList, callback) {
  * 
  * 1. What is the difference between counter1 and counter2?
  * 
+ *  - counter1 code has a varriable inside the function while counter2 code has the variable outside the function.
+ * 
  * 2. Which of the two uses a closure? How can you tell?
  * 
+ *  - counter2 code uses a closure because it has a variable of 'let count = 0' outside of the function.
+ * 
  * 3. In what scenario would the counter1 code be preferable? In what scenario would counter2 be better? 
+ * 
+ *  - Normally the counter1 code would always be preferred due to 'best practices' but counter2 could be used when you really need to acces the information.
  *
 */
 
