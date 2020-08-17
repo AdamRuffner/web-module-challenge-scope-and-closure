@@ -42,6 +42,9 @@ Find the file `index.js` and complete the tasks.
 Edit the `ReadMe` file with your answers.
 
 1. In your own words, define closure (1-2 sentences).
+
+  - Closure gives inner-functions access to outer-functions scope.
+
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -63,8 +66,16 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
+
+  - the return function is the closure, because it is the child to the parent function.
+
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+
+  -  It will always restart, so the second time you call it, it won't add on or remember the first one.
+
 c. What is the lexical scope of `newRoll`? 
+
+  - It is a const, which means it is block scoped, can't be redeclared, and can't be updated.
 
 ### Task 2c - Exit Ticket
 
